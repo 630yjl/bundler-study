@@ -1,0 +1,1 @@
+(()=>{"use strict";console.log(((o=21)=>{let e="",r=crypto.getRandomValues(new Uint8Array(o|=0));for(;o--;)e+="useandom-26T198340PX75pxJACKVERYMINDBUSHWOLF_GQZbfghjklqvwyzrict"[63&r[o]];return e})()),console.log("서울")})();
