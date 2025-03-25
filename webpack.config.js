@@ -9,4 +9,13 @@ module.exports = {
     path: path.resolve(__dirname, "dist"),
     filename: "main.js",
   },
+
+  module: {
+    rules: [
+      {
+        test: /\.s[ac]ss$/i,
+        use: ["style-loader", "css-loader", "sass-loader"], //아래부터 순서대로 돌기때문에 순서 지켜서 써주기
+      },
+    ],
+  },
 };
